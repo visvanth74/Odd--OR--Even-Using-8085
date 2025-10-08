@@ -13,9 +13,9 @@ ANI 01H<br>
 JZ EVEN<br>
 MVI A,01H<br>
 OUT 01H<br>
-HLT
-EVEN: MVI A,00H
-OUT 01H
+HLT<br>
+EVEN: MVI A,00H<br>
+OUT 01H<br>
 HLT
 ## Output:
 <img width="1823" height="804" alt="image" src="https://github.com/user-attachments/assets/c6025b0a-8105-4716-be80-ea15013c42b9" />
