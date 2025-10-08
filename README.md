@@ -8,11 +8,11 @@ Laptop with an internet connection
 3.	If the result is 0, the number is even; otherwise, it is odd.
 4.	Store the result in a specific memory location (odd or even flag).
 ## Program:
-IN 00H
-ANI 01H
-JZ EVEN
-MVI A,01H
-OUT 01H
+IN 00H<br>
+ANI 01H<br>
+JZ EVEN<br>
+MVI A,01H<br>
+OUT 01H<br>
 HLT
 EVEN: MVI A,00H
 OUT 01H
